@@ -1,16 +1,22 @@
-# print("Welcome to Tic Tac Toe")
-print("----------------------")
-
-possibleNumbers = [1,2,3,4,5,6,7,8,9]
-gameBoard = [[1,2,3],[4,5,6],[7,8,9]]
-rows = 3
-cols = 3
-
-def printGameBoard():
-  for x in range (rows):
-    print("\n+---+---+---+")
-    print("|", end="")
-for x in range(cols):
-      print("", gameBoard[x], end=" |")
-      print("\n+---+---+---+")
-print(printGameBoard())
+from tkinter import*
+import random
+def next_turn():
+    pass
+def chech_winner():
+    pass
+def empty_spaces():
+    pass
+def new_game():
+    pass
+window = Tk()
+window.title("Tic-Tac-Toe")
+players = ["X","O"]
+starter_player = random.choice(players)
+buttons = [[0, 0, 0],
+           [0, 0, 0],
+           [0, 0, 0]]
+label = Label(text=starter_player + "turn", font=('consolas', 40))
+label.pack(side="top")
+reset_button = Button(text="restart", font="consolas", command=new_game)
+reset_button.pack(side="top")
+window.mainloop()
