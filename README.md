@@ -15,4 +15,4 @@ A player marks any of the 3x3 squares with his sign "X" or "O" and their aim is 
 a. One of the players gets three signs in a row (vertically, horizontally, or diagonally) that player wins the game.
 
 b. If no one can create a straight line with their own mark and all the positions on the board are occupied, then the game ends in a **tie**(draw).
-<p align="center"><h3>Tie case.</h3><img src="images/tie case.png" width="250" height="250" /></p>
+
