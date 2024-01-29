@@ -13,8 +13,6 @@ Player 1 and 2 take turns making moves.
 
 A player marks any of the 3x3 squares with his sign "X" or "O" and their aim is to create a straight line horizontally, vertically or diagonally:  
 a. One of the players gets three signs in a row (vertically, horizontally, or diagonally) that player wins the game.
-<p align="center"><h3>Horizontal case.</h3><img src="images/vertical case.png" width="250" height="250" /></p>
-<p align="center"><h3>Diagonal case.</h3><img src="images/diagonal case.png" width="250" height="250" /></p>
-<p align="center"><h3>Horizontal case.</h3><img src="images/horizontal case.png" width="250" height="250" /></p>
+
 b. If no one can create a straight line with their own mark and all the positions on the board are occupied, then the game ends in a **tie**(draw).
 <p align="center"><h3>Tie case.</h3><img src="images/tie case.png" width="250" height="250" /></p>
